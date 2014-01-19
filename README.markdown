@@ -27,16 +27,12 @@ Install the gem from a tarball:
     tar xzvf mdwiki-0.01.tgz
     export PATH=$PATH:mdwiki-0.01/bin
 
-Define the location of the wiki in one of two ways:
-
-- As an environment variable
+Define the location of the wiki as an environment variale:
 
     export MDWiKI=$HOME/wikidir
-- Run it with an argument
+    wdwiki
 
-    mdwiki $HOME/wikidir`
-
-If you define it via the environment, you can just run the program:
+Or run it with an argument
 
     mdwiki $HOME/wikidir
 
